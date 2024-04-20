@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #303841;
+  color: white;
+  height: 100%;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.footer-show {
+  opacity: 1;
+  transition: opacity 1s ease-in-out; /* Transición de opacidad durante 1 segundo */
+}
+
+.footer-hide {
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* Transición de opacidad durante 1 segundo */
+}
+
+/* fade-in.css */
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 1s ease-in forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
