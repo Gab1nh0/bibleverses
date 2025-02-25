@@ -10,7 +10,8 @@ const getBibleVerse = async () => {
       'https://bible-api.com/john+16:33',
       'https://bible-api.com/mathew+11:28',
       'https://bible-api.com/mathew+7:7',
-      'https://bible-api.com/psalms+37:5'
+      'https://bible-api.com/psalms+37:5',
+      'https://bible-api.com/luke+18:27'
    ];
 
    try {
